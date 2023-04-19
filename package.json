@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "www.lewishalstead.co.uk",
+  "homepage": "https://lewishalstead.co.uk",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
