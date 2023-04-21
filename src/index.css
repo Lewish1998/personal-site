@@ -3,7 +3,7 @@
 /* --- VARIABLES --- */
 :root {
   --bg-color: #101010;
-  --hl-color: #009e66;
+  --hl-color: #00d3e3;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
   --grey: #9f9f9f76;
@@ -130,6 +130,7 @@ header {
 .links.open {
   display: block;
   animation: slideDown 0.5s ease-in-out forwards;
+
 }
 
 .dropdown-toggle {
@@ -191,12 +192,13 @@ header {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: var(--hl-color);
     transition: width 0.3s ease-in-out;
   }
 
   .links a:hover:before {
     width: 100%;
+    background-color: var(--hl-color);
   }
 
   .links a.active:before {
@@ -206,7 +208,7 @@ header {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: var(--hl-color);
     transition: width 0.3s ease-in-out;
     width: 100%;
   }

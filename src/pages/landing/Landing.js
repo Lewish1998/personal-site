@@ -14,8 +14,9 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("Junior Software Developer")
-                .start();
+              .changeDelay(50)
+              .typeString("Junior Software Developer")
+              .start();
             }}
           />
         </div>

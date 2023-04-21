@@ -61,7 +61,8 @@ ul {
   border-bottom: 1px solid var(--grey);
   border-radius: 1px;
   outline: transparent;
-  color: var(--grey);
+  color: #ffffff
+  
 }
 
 .formControl:focus {
