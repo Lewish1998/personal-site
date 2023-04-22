@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/lewis-halstead-cv.pdf";
+import resume from "../pages/about/Lewis Halstead CV .pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -20,7 +20,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Lewis-Halstead-CV.pdf";
+    link.download = "Lewis Halstead CV.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
