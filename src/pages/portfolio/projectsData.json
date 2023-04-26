@@ -3,7 +3,7 @@
     "title": "Oot'N'Aboot",
     "image": "./projectImages/capstone.png",
     "description": "A React Native Mobile app which allows users to view events in their chosen location, create a list of favourited events and redirect them to ticket sites.",
-    "technologies": "JavaScript | React Native | Java | Spring",
+    "technologies": "JavaScript | React Native | Java | Spring | SQL",
     "github": "https://github.com/Lewish1998/Capstone",
     "deployed": "",
     "bgcolor": "#bf0000",
