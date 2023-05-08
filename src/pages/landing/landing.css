@@ -6,7 +6,7 @@
 	opacity: 0.9;
 }
 .content h1:nth-child(2) {
-	color: #237eff;
+	color: #00d3e3;
 	animation: animate 4s ease-in-out infinite;
 }
 @keyframes animate {
