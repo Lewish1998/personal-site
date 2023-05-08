@@ -2,7 +2,8 @@
 
 .content h1:nth-child(1) {
 	color: transparent;
-	-webkit-text-stroke: 1px rgb(48, 165, 178);
+	-webkit-text-stroke: 1px #fff;
+	opacity: 0.9;
 }
 .content h1:nth-child(2) {
 	color: #237eff;
@@ -92,7 +93,7 @@
 	display: none;
   }
   .content h1:nth-child(1){
-	color: rgb(210, 248, 243);
+	color: #fff;
 	-webkit-text-stroke: 0px;
 }
 
