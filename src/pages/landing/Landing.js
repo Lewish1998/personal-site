@@ -6,19 +6,15 @@ const Landing = ({ name }) => {
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
-        <h1 className="name" style={styles.name}>
-          {name}
-        </h1>
+
+        <h1 className="name" style={styles.name}>{name}</h1>
+
         <div className="description">
-          <Typewriter
-            className="description"
-            onInit={(typewriter) => {
-              typewriter
-              .changeDelay(50)
-              .typeString("Junior Software Developer")
-              .start();
-            }}
-          />
+          <div className="content">
+            <h1>JUNIOR SOFTWARE DEVELOPER</h1>
+            <h1 id="htwo">JUNIOR SOFTWARE DEVELOPER</h1>
+          </div>
+
         </div>
       </div>
       <SocialIcons />
@@ -52,7 +48,7 @@ const styles = {
     textAlign: "center",
     zIndex: "1",
     color: "#fff",
-    textShadow: "1px 1px 3px #000",
+    // textShadow: "1px 1px 3px #000",
   },
 
   name: {
