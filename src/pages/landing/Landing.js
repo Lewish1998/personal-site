@@ -6,16 +6,14 @@ const Landing = ({ name }) => {
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
+
         <h1 className="name" style={styles.name}>{name}</h1>
 
-
-
         <div className="description">
-
-      <div className="content">
-        <h1>JUNIOR SOFTWARE DEVELOPER</h1>
-        <h1 id="htwo">JUNIOR SOFTWARE DEVELOPER</h1>
-      </div>
+          <div className="content">
+            <h1>JUNIOR SOFTWARE DEVELOPER</h1>
+            <h1 id="htwo">JUNIOR SOFTWARE DEVELOPER</h1>
+          </div>
 
         </div>
       </div>

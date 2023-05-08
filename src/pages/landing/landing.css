@@ -1,73 +1,15 @@
-/* --- MOBILE STYLES --- */
+/* Sub heading water animation */
 
-.landing .name {
-  text-transform: uppercase;
-  font-size: 150px;
-  background: url("/Users/lewis/projects/personal-site/portfolio/personal-site/src/images/water.jpg")
-  top;
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-}
-.landing .description {
-  font-size: 22px;
-}
-
-.landingImage {
-  right: 0px;
-}
-
-.landing .socialIcons {
-  display: none;
-}
-
-.landing .socialIcons {
-  display: flex;
-  position: absolute;
-  left: 50px;
-  bottom: 20px;
-}
-
-/* --- MEDIA QUERIES --- */
-
-@media (max-width: 750px) {
-  .landing .name {
-    font-size: 70px;
-  }
-
-  .landing .description {
-    font-size: 32px;
-  }
-
-  .landingImage {
-    bottom: 0;
-    right: 80px;
-  }
-
-  .landing .socialIcons {
-    flex-direction: column;
-  }
-}
-
-/*  */
-
-.content h1 {
-	color: #fff;
-	/* position: absolute; */
-}
 .content h1:nth-child(1) {
 	color: transparent;
-	-webkit-text-stroke: 0.3px #7d7d7d;
+	-webkit-text-stroke: 1px rgb(48, 165, 178);
 }
 .content h1:nth-child(2) {
-	color: #73aaf7;
+	color: #237eff;
 	animation: animate 4s ease-in-out infinite;
 }
 @keyframes animate {
-	0%,
-	100% {
+	0%, 100% {
 		clip-path: polygon(
 			0% 45%,
 			16% 44%,
@@ -94,10 +36,77 @@
 		);
 	}
 }
-
 #htwo{
   position: relative;
-  bottom: 50px;
+  bottom: 68px;
 }
 
-/* ashleighk4722 */
+
+
+
+
+
+
+
+.landing .name {
+  text-transform: uppercase;
+  font-size: 150px;
+  background: url("/Users/lewis/projects/personal-site/portfolio/personal-site/src/images/water.jpg")
+  
+  top;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.landing .description {
+  font-size: 30px;
+}
+
+.landingImage {
+  right: 0px;
+}
+
+.landing .socialIcons {
+  display: none;
+}
+
+.landing .socialIcons {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 750px) {
+  .landing .name {
+    font-size: 70px;
+  }
+
+  .landing .description {
+    font-size: 20px;
+  }
+  #htwo{
+	display: none;
+  }
+  .content h1:nth-child(1){
+	color: rgb(210, 248, 243);
+	-webkit-text-stroke: 0px;
+}
+
+
+
+
+
+  .landingImage {
+    bottom: 0;
+    right: 80px;
+  }
+
+  .landing .socialIcons {
+    flex-direction: column;
+  }
+}
+
