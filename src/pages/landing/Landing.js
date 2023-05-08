@@ -6,9 +6,7 @@ const Landing = ({ name }) => {
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
-        <h1 className="name" style={styles.name}>
-          {name}
-        </h1>
+        <h1 className="name" style={styles.name}>{name}</h1>
         <div className="description">
           <Typewriter
             className="description"
@@ -52,7 +50,7 @@ const styles = {
     textAlign: "center",
     zIndex: "1",
     color: "#fff",
-    textShadow: "1px 1px 3px #000",
+    // textShadow: "1px 1px 3px #000",
   },
 
   name: {
