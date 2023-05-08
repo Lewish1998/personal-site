@@ -6,7 +6,8 @@
 	opacity: 0.9;
 }
 .content h1:nth-child(2) {
-	color: #00d3e3;
+	
+	color: #8cc8f0;
 	animation: animate 4s ease-in-out infinite;
 }
 @keyframes animate {
@@ -51,10 +52,11 @@
 
 .landing .name {
   text-transform: uppercase;
-  font-size: 150px;
+  font-size: 120px;
+  -webkit-text-stroke: 0.4px #fff;
   background: url("/Users/lewis/projects/personal-site/portfolio/personal-site/src/images/water.jpg")
   
-  top;
+  bottom;
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
