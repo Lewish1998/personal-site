@@ -22,7 +22,7 @@ const Portfolio = () => {
     <section className="portfolio">
       <PageHeader title="Portfolio"/>
       <div className="row">
-        <ProjectList />
+        <ProjectList/>
       </div>
     </section>
   );

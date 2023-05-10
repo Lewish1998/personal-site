@@ -43,7 +43,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
           <span className="viewWork">View More &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-          <img src={image} alt="Home-page-image" />
+          <img src={image} alt="Home-page" />
         </div>
       </div>
       <Modal
