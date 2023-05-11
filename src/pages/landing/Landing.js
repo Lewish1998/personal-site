@@ -8,7 +8,7 @@ const Landing = ({ name }) => {
         <h1 className="name" style={styles.name}>{name}</h1>
         <div className="description">
           <div className="content">
-            <h1>JUNIOR SOFTWARE DEVELOPER</h1>
+            <h1>Junior Software Developer</h1>
           </div>
 
         </div>
