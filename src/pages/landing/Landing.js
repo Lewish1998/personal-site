@@ -1,4 +1,3 @@
-import Typewriter from "typewriter-effect";
 import SocialIcons from "../../components/SocialIcons";
 
 const Landing = ({ name }) => {
@@ -6,13 +5,10 @@ const Landing = ({ name }) => {
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
-
         <h1 className="name" style={styles.name}>{name}</h1>
-
         <div className="description">
           <div className="content">
             <h1>JUNIOR SOFTWARE DEVELOPER</h1>
-            <h1 id="htwo">JUNIOR SOFTWARE DEVELOPER</h1>
           </div>
 
         </div>
@@ -49,13 +45,6 @@ const styles = {
     zIndex: "1",
     color: "#fff",
     // textShadow: "1px 1px 3px #000",
-  },
-
-  name: {
-    color: "#fff",
-    fontWeight: "700",
-    marginTop: "-100px",
-    paddingBottom: "28px",
   },
 };
 

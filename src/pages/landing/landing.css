@@ -1,69 +1,19 @@
-/* Sub heading water animation */
 
-.content h1:nth-child(1) {
-	color: transparent;
-	-webkit-text-stroke: 1px #fff;
-	opacity: 0.9;
-}
-.content h1:nth-child(2) {
-	
-	color: #8cc8f0;
-	animation: animate 4s ease-in-out infinite;
-}
-@keyframes animate {
-	0%, 100% {
-		clip-path: polygon(
-			0% 45%,
-			16% 44%,
-			33% 50%,
-			54% 60%,
-			70% 61%,
-			84% 59%,
-			100% 52%,
-			100% 100%,
-			0% 100%
-		);
-	}
-	50% {
-		clip-path: polygon(
-			0% 60%,
-			15% 65%,
-			34% 66%,
-			51% 62%,
-			67% 50%,
-			84% 45%,
-			100% 46%,
-			100% 100%,
-			0% 100%
-		);
-	}
-}
-#htwo{
-  position: relative;
-  bottom: 68px;
+/* .landing .name {
+  color: #fff;
+  font-size: 48;
+} */
+
+.name {
+  color: "#fff";
+  font-weight: "700";
+  margin-top: "-100px";
+  padding-bottom: "48px";
+  font-size: 80px;
 }
 
-
-
-
-
-
-
-
-.landing .name {
-  text-transform: uppercase;
-  font-size: 120px;
-  -webkit-text-stroke: 0.4px #fff;
-  background: url("/Users/lewis/projects/personal-site/portfolio/personal-site/src/images/water.jpg")
-  
-  bottom;
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .landing .description {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .landingImage {
@@ -91,17 +41,6 @@
   .landing .description {
     font-size: 20px;
   }
-  #htwo{
-	display: none;
-  }
-  .content h1:nth-child(1){
-	color: #fff;
-	-webkit-text-stroke: 0px;
-}
-
-
-
-
 
   .landingImage {
     bottom: 0;
