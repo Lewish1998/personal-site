@@ -10,6 +10,7 @@ const Landing = ({ name }) => {
           <div className="content">
             <h1>Junior Software Developer</h1>
           </div>
+          
 
         </div>
       </div>
