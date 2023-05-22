@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/Lewis Halstead CV .pdf";
+import resume from "../pages/about/Lewis_Halstead_CV.pdf";
+
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
