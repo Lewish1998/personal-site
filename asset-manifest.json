@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.a0faef1f.css",
-    "main.js": "/static/js/main.358442c2.js",
+    "main.js": "/static/js/main.85aaac75.js",
     "static/media/Lewis_Halstead_CV.pdf": "/static/media/Lewis_Halstead_CV.f0ccf2c2265a42038454.pdf",
     "index.html": "/index.html",
     "static/media/close.svg": "/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
     "static/media/open.svg": "/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
     "main.a0faef1f.css.map": "/static/css/main.a0faef1f.css.map",
-    "main.358442c2.js.map": "/static/js/main.358442c2.js.map"
+    "main.85aaac75.js.map": "/static/js/main.85aaac75.js.map"
   },
   "entrypoints": [
     "static/css/main.a0faef1f.css",
-    "static/js/main.358442c2.js"
+    "static/js/main.85aaac75.js"
   ]
 }
